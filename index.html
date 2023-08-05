@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Projeto Recode</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <nav class="navbar col-12 m-auto position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index: 999;">
+        <div class="container col-11 m-auto">
+        <a class="navbar-brand" href="#"><span class="text-primary">Turis</span>vig</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="destino.html">Destino</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="promoçao.html">Promoção</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contatos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="promoçao.html">Hoteis</a>
+              </li>
+          </ul>
+          
+        </div>
+    </nav> <br><br><br>
+    <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block  w-100 " src="img/espanha12.webp" alt="Primeiro Slide">
+            <div class="carousel-caption">
+              <h5>Espanha</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic necessitatibus error iure itaque ex perferendis enim, numquam incidunt id temporibus doloremque aut nobis facilis ullam laboriosam adipisci dolorem ad harum!</p>
+              <p><a href="#" class="btn btn-primary mt-3">Comprar Ingresso</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 " src="img/qatar.jpg" alt="Segundo Slide">
+            <div class="carousel-caption">
+              <h5 ">Qatar</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic necessitatibus error iure itaque ex perferendis enim, numquam incidunt id temporibus doloremque aut nobis facilis ullam laboriosam adipisci dolorem ad harum!</p>
+              <p><a href="#" class="btn btn-primary mt-3">Comprar Ingresso</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/inglaterra.jpg" alt="Terceiro Slide">
+            <div class="carousel-caption">
+              <h5 >Inglaterra</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic necessitatibus error iure itaque ex perferendis enim, numquam incidunt id temporibus doloremque aut nobis facilis ullam laboriosam adipisci dolorem ad harum!</p>
+              <p><a href="#" class="btn btn-primary mt-3">Comprar Ingresso</a></p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    </div>
+    <br>
+    <section id="services" class="services section-padding">
+      <div class="container">
+        <div class="row"><div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2>Outros Serviços</h2>
+            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Enim cumque, temporibus, ab repudiandae eligendi voluptatum nisi quibusdam aliquam nostrum amet doloremque voluptates, veritatis dicta maiores sunt fugit ex? Iste, repudiandae.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <div class="card-deck col-11 m-auto">
+        <div class="card">
+          <img class="card-img-top" src="img/qatar.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title text-center">Qatar</h5>
+            <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat sunt dolores eveniet maiores vitae omnis, accusamus odio pariatur neque, corporis voluptatem vero modi fugiat aut ab similique deleniti quibusdam rerum.</p>
+            <!-- Botão para acionar modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ExemploModalCentralizado">
+    Veja mais
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="TituloModalCentralizado">Qatar</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="img\quatar.jpg" alt="qatar" style="height: 100%; width: 100%;">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, similique hic! Voluptatem impedit quia iure soluta dicta, perferendis a velit aut magnam ratione placeat explicabo modi, provident sapiente rem aspernatur!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+   </div>
+    <div class="card col-11 m-100%">
+          <img class="card-img-top" src="img/frança.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title text-center">França</h5>
+            <p class="card-text text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde perspiciatis, iure libero officiis earum incidunt illo ipsum reprehenderit aspernatur similique, qui rem quidem nulla. Reiciendis labore amet deserunt non eaque!</p>
+            
+            
+          </div>
+    </div>
+        <div class="card col-11 m-100%">
+          <img class="card-img-top" src="img/espanha.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title text-center">Espanha</h5>
+            <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rerum sint est saepe, aliquam temporibus debitis repellendus quibusdam commodi adipisci deleniti vel pariatur odit. Sunt quaerat commodi voluptate maxime nostrum.</p>
+          </div>
+        </div>
+      </div>
+      
+      <hr>
+      <section id="equipe" class="equipe section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-header text-center pb-5">
+                <h2>Equipe De Vendas</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae neque quia est assumenda suscipit corrupti at eligendi iste asperiores temporibus ducimus aut illo, tenetur ipsam? Maxime tenetur ex quis excepturi.</p>
+             </div>
+           </div>
+          </div>
+            
+        </div>
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-3">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img src="img/julho.jpg" alt="" class="img-fluid rounded-circle">
+                <h3 class="card-title py-2">julho</h3>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga odio, ipsam dolore culpa totam assumenda delectus distinctio, eum deleniti at facere quas vitae. Esse dolore quaerat, impedit a sequi voluptatem.</p>
+                <p class="sociais">
+                  <i class="bi bi-twitter text-dark mx-1"></i>
+                  <i class="bi bi-facebook text-dark mx-1"></i>
+                  <i class="bi bi-linkedin text-dark mx-1"></i>
+                  <i class="bi bi-instagram text-dark mx-1"></i> 
+                </p>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-3">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img src="img/fernanda.jpg" alt="" class="img-fluid rounded-circle">
+                <h3 class="card-title py-2">Fernanda </h3>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga odio, ipsam dolore culpa totam assumenda delectus distinctio, eum deleniti at facere quas vitae. Esse dolore quaerat, impedit a sequi voluptatem.</p>
+                <p class="sociais">
+                  <i class="bi bi-twitter text-dark mx-1"></i>
+                  <i class="bi bi-facebook text-dark mx-1"></i>
+                  <i class="bi bi-linkedin text-dark mx-1"></i>
+                  <i class="bi bi-instagram text-dark mx-1"></i> 
+                </p>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-3">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img src="img/pedro.jpg" alt="" class="img-fluid rounded-circle">
+                <h3 class="card-title py-2">Pedro</h3>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga odio, ipsam dolore culpa totam assumenda delectus distinctio, eum deleniti at facere quas vitae. Esse dolore quaerat, impedit a sequi voluptatem.</p>
+                <p class="sociais">
+                  <i class="bi bi-twitter text-dark mx-1"></i>
+                  <i class="bi bi-facebook text-dark mx-1"></i>
+                  <i class="bi bi-linkedin text-dark mx-1"></i>
+                  <i class="bi bi-instagram text-dark mx-1"></i> 
+                </p>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-3">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img src="img/silvia.jpg" alt="" class="img-fluid rounded-circle">
+                  <h3 class="card-title py-2">Silva</h3>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga odio, ipsam dolore culpa totam assumenda delectus distinctio, eum deleniti at facere quas vitae. Esse dolore quaerat, impedit a sequi voluptatem.</p>
+                    <p class="sociais">
+                    <i class="bi bi-twitter text-dark mx-1"></i>
+                    <i class="bi bi-facebook text-dark mx-1"></i>
+                   <i class="bi bi-linkedin text-dark mx-1"></i>
+                   <i class="bi bi-instagram text-dark mx-1"></i> 
+                </p>
+                </div>
+              </div>
+            </div>
+          </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contatos" class="contato section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-header text-center pb-5">
+                <h2>Contatos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae qui, molestias incidunt nostrum eveniet laudantium similique quidem obcaecati officia, dignissimos repellendus ipsum odit quae nam? Voluptates sint id minus eos.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row m-0">
+            <div class="col-md-12 p-0 pt-4 pb-4">
+              <form action="#" class="bg-light p-4.m-auto">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="mb-3">
+                      <input type="text" class="form-control" required placeholder="Seu nome completo">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="mb-3">
+                      <input type="email" class="form-control" required placeholder="Seu E-mail">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="mb-3">
+                      <textarea rows="3" required class="form-control" placeholder=""></textarea>
+                    </div>
+                  </div>
+                  <button class="btn btn-success btn-lg btn-block mt-3">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="bg-dark p-2 text-center">
+        <div class="container">
+          <p class="text-white">© Copyright 2023 @Website</p>
+        </div>
+      </footer>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+</body>
+</html>

@@ -1,0 +1,61 @@
+.card{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 100;
+    text-shadow:0px 1px 1px  ;
+}
+.texto-principal h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+
+}
+.texto-principal h1{
+    padding: 20px;
+    margin-top: 30px;
+    font-weight: 600;
+    color:black;
+}
+.texto-principal h1 span{
+    color: rgb(0, 132, 255);
+}
+.pacotes .card{
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0,0,0,0.1)0px 4px 12px;
+}
+.pacotes .card img{
+    border-radius: 5px;
+    height: 300px;
+    width: 100%;
+}
+.pacotes .card .card-body{
+    background: transparent;
+
+}
+.pacotes .card .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.pacotes .card .card-body p{
+    font-size: 15px;
+}
+.checked{
+    color: #ffa500;
+}
+.estrela i{
+    font-size: 15px;
+
+}
+.pacotes .card .card-body h6{
+    font-size: 20px;
+}
+.pacotes .card .card-body a{
+    padding: 10px;
+    text-decoration: none;
+    background: #2d07d6;
+    color: white;
+    border-radius: 8px;
+
+}

@@ -1,0 +1,53 @@
+.contato{
+   background-color: rgb(120, 83, 155);
+  }
+h1{
+    text-align: center;
+   color: black; 
+}
+.custom-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.custom-form label {
+    font-weight: bold;
+}
+.custom-form input[type="text"],
+.custom-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.custom-form textarea {
+    height: 150px;
+}
+.custom-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-form button:hover {
+    background-color: #0056b3;
+}
+.formula{
+    padding: 200px;
+    
+}
+.formula .custom-form{
+    color: black;
+    background: transparent;
+}
+.formula{
+    background: transparent;
+}
